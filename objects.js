@@ -1,18 +1,4 @@
-class Person {
-  constructor(firstname, lastname, age) {
-    this.firstname = firstname;
-    this.lastname = lastname;
-    this.age = age;
-  }
-
-  sayHello() {
-    console.log(`Hello, I am ${this.getFullName()} and I am ${this.age} years old!`);
-  }
-
-  getFullName() {
-    return `${this.firstname} ${this.lastname}`;
-  }
-}
+const Person = require('./Person');
 
 const person3 = new Person('Jane', 'Austen', 20);
 person3.sayHello();
