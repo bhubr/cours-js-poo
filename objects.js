@@ -1,4 +1,5 @@
 const Person = require('./Person');
+const Student = require('./Student');
 
 const person3 = new Person('Jane', 'Austen', 20);
 person3.sayHello();
@@ -13,3 +14,6 @@ person1.sayHello();
 
 const person2 = new Person('Darth', 'Vader', 60);
 person2.sayHello();
+
+const wilder1 = new Student('Waldo', 'Wild', 29, 'Remote');
+wilder1.sayHello();
